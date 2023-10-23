@@ -5,9 +5,19 @@ import com.dp.dp_sp.operate.OperateStrategy;
 import com.entity.BaseEntity;
 import com.entity.GrandsonEntity;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class Main_test {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ParseException {
+
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd ");
+        Date date = dateFormat.parse("2023-08-25");
+        System.out.println(date);
+
+        Integer.valueOf(null);
 
         BaseEntity testEntity = new GrandsonEntity();
         System.out.println(testEntity.getClass().getSuperclass().getSimpleName());

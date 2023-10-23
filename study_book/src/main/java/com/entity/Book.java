@@ -35,6 +35,9 @@ public class Book {
         this.ownerName = ownerName;
     }
 
+    public Book() {
+    }
+
     public boolean isHasUsed() {
         return hasUsed;
     }

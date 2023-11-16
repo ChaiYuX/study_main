@@ -3,20 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com</groupId>
+        <artifactId>studyMain</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>com</groupId>
-    <artifactId>studyMain</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>study_admin</module>
-        <module>study_DP</module>
-        <module>study_http</module>
-        <module>study_CRP</module>
-        <module>study_Listener</module>
-        <module>study_book</module>
-        <module>study_thread</module>
-    </modules>
+    <artifactId>study_thread</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

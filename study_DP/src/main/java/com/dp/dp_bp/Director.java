@@ -9,9 +9,12 @@ public class Director {
     }
 
     public void construct(){
+        this.builder.build();
         builder.setCpu("Intel Core 13 i9");
         builder.setHardDisk("1TB HDD");
         builder.setGraphicsCard("NVIDA GTX4080 Ti 16GB");
         builder.setMemoryBank("32GB DDR5 *2");
     }
+
+
 }

@@ -16,6 +16,7 @@
         <module>study_Listener</module>
         <module>study_book</module>
         <module>study_thread</module>
+        <module>PDFtoIMG</module>
     </modules>
 
     <properties>
@@ -24,4 +25,18 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.pdfbox</groupId>
+            <artifactId>pdfbox</artifactId>
+            <version>2.0.4</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.xhtmlrenderer</groupId>
+            <artifactId>core-renderer</artifactId>
+            <version>R8</version>
+        </dependency>
+    </dependencies>
 </project>

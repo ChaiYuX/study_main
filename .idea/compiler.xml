@@ -12,6 +12,7 @@
         <module name="study_book" />
         <module name="study_DP" />
         <module name="study_thread" />
+        <module name="PDFtoIMG" />
         <module name="study_admin" />
       </profile>
     </annotationProcessing>

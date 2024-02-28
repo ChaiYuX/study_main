@@ -3,7 +3,7 @@
     <parent>
         <artifactId>studyMain</artifactId>
         <groupId>com</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>study_admin</artifactId>
@@ -39,39 +39,44 @@
         <dependency>
             <groupId>com</groupId>
             <artifactId>study_DP</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com</groupId>
             <artifactId>study_http</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com</groupId>
             <artifactId>study_CRP</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
             <scope>compile</scope>
         </dependency>
         <!--hutool-->
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
-            <version>5.8.12</version>
         </dependency>
         <dependency>
             <groupId>com</groupId>
             <artifactId>study_Listener</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com</groupId>
             <artifactId>study_book</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
             <scope>compile</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com</groupId>
+            <artifactId>study_http</artifactId>
+        </dependency>
+
     </dependencies>
     <build>
         <finalName>study_admin</finalName>

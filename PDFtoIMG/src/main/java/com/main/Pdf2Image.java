@@ -1,6 +1,7 @@
-package com;
+package com.main;
 
 import com.lowagie.text.pdf.PdfReader;
+import com.util.ImageMergeUtil;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.rendering.PDFRenderer;
 

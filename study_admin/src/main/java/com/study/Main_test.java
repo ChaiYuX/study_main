@@ -14,6 +14,9 @@ public class Main_test {
 
     public static void main(String[] args) throws IOException {
 
+        String testStr = null;
+        System.out.println(Long.valueOf(testStr));
+
         System.out.println(DateUtil.now());
 
         String payxml = "20231206155627861D5755500000000000000otherAccPay00000274\n" +

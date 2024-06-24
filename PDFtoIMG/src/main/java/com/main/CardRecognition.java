@@ -14,6 +14,10 @@ import java.util.Map;
 public class CardRecognition {
 
     public static void main(String[] args) throws IOException {
+
+        String test = "мь подберем вам с наиболее подходящими продуктами и услугами. ";
+        System.out.println(test);
+
         String host = "https://bizcard.market.alicloudapi.com";
         String path = "/rest/160601/ocr/ocr_business_card.json";
         String method = "POST";
